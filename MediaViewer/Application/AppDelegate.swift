@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(">>> didFinishLaunchingWithOptions")
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let vc = UIStoryboard().instantiateViewController(ofType: ViewController.self)
+        let vc = MainViewController()
         let nvc = UINavigationController(rootViewController: vc)
         window?.rootViewController = nvc
         window?.makeKeyAndVisible()

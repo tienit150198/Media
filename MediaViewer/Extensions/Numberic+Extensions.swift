@@ -5,4 +5,8 @@
 //  Created by TranTien on 12/09/2021.
 //
 
-import Foundation
+import UIKit
+
+public extension Double {
+    var toCGFloat: CGFloat { CGFloat(self) }
+}

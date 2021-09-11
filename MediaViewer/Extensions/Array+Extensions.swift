@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension Array {
+    func at(_ index: Index) -> Element? {
+        indices.contains(index) ? self[index] : nil
+    }
+}
